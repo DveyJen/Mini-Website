@@ -3,3 +3,163 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+  color: #8b8b8b;
+  font-size: 16px;
+}
+
+.front-page {
+  background-image: url(https://picsum.photos/1366/768);
+  height: 768px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin-bottom: 72px;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  align-items: start;
+  gap: 24px;
+  justify-content: flex-end;
+  padding: 36px 142px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.menu ul li:nth-child(1),
+.menu ul li:nth-child(6) {
+  margin-right: auto;
+}
+.big-btn {
+  padding: 13px 42px;
+  color: white;
+  background-color: #3c3c3c;
+  max-width: 144px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 156px 300px 243px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+h2 {
+  font-size: 56px;
+  color: #3c3c3c;
+}
+p {
+  font-size: 18px;
+  color: #3c3c3c;
+}
+
+#contact {
+  margin-top: 64px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+  padding: 72px 143px 80px;
+}
+
+.picture {
+  max-width: 528px;
+  max-height: 400px;
+}
+
+.text h2 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.text p {
+  font-size: 16px;
+}
+
+#bottom-page {
+  padding: 72px 143px 136px;
+  background-color: #ebebeb;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 42px;
+  margin-bottom: 24px;
+}
+
+.title p {
+  margin-bottom: 72px;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+
+.picture-text {
+  font-size: 13px;
+  color: #3c3c3c;
+  margin-bottom: 8px;
+  font-style: bold;
+}
+
+.category h3 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.subscribe ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  height: 199px;
+  background-color: #3c3c3c;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 143px;
+}
+
+.subscribe ul li:first-child {
+  font-size: 40px;
+  color: white;
+  margin-right: auto;
+}
+
+#subscribe {
+  font-size: 16px;
+  background-color: white;
+  color: #3c3c3c;
+}
+
+#end ul {
+  list-style-type: none;
+  display: flex;
+  align-items: start;
+  gap: 24px;
+  justify-content: flex-end;
+  padding: 36px 142px;
+  background-color: #ebebebe;
+}
+
+#end ul li:first-child {
+  margin-right: auto;
+}
